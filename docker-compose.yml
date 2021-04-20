@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  stark-app-run:
+    image: stark-i
+    container_name: stark-c
+    build:
+      context: ./
+      dockerfile: "Dockerfile"
+   
+    restart: always
+
+  
